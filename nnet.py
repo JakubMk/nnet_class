@@ -21,7 +21,6 @@ def plot_decision_boundary(predict_function, network, X, Y):
     plt.xlabel('x1')
     plt.scatter(X[0,:], X[1,:], c=Y, cmap='jet')
     plt.show()
-
         
 X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]]).T
 Y = np.array([[0], [1], [1], [0]]).T
